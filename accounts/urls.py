@@ -1,6 +1,14 @@
-from django.urls import path
+from django.contrib import admin
+from django.urls import path, include
 from . import views
+
 urlpatterns = [
+   
+    
+
+
+
+    # Existing project routes
     path("register/", views.register, name="register"),
     path("verify/<str:token>/", views.verify_email, name="verify_email"),
     path("dashboard/", views.dashboard, name="dashboard"),

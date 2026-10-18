@@ -37,6 +37,7 @@ for host in ("localhost", "127.0.0.1"):
 
 
 INSTALLED_APPS = [
+    'jazzmin',
     "django.contrib.admin", "django.contrib.auth", "django.contrib.contenttypes",
     "django.contrib.sessions", "django.contrib.messages", "django.contrib.staticfiles",
     "core", "accounts", "appointments", "pharmacy", "marketplace", "profiles",
