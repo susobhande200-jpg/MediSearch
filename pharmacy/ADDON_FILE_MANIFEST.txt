@@ -1,0 +1,43 @@
+MediSearch Profile Management Add-on file manifest
+
+New app/source files:
+profiles/__init__.py
+profiles/apps.py
+profiles/admin.py
+profiles/forms.py
+profiles/models.py
+profiles/tests.py
+profiles/urls.py
+profiles/views.py
+profiles/migrations/__init__.py
+profiles/migrations/0001_initial.py
+profiles/migrations/0002_saveditems.py
+
+templates:
+templates/profiles/profile_base.html
+templates/profiles/overview.html
+templates/profiles/edit.html
+templates/profiles/addresses.html
+templates/profiles/address_form.html
+templates/profiles/preferences.html
+templates/profiles/security.html
+templates/profiles/saved_items.html
+
+static:
+static/profiles/profile.css
+static/profiles/profile.js
+
+Installer/docs:
+apply_profile_addon.py
+PROFILE_SETUP.md
+PROFILE_CHANGELOG.md
+ADDON_FILE_MANIFEST.txt
+
+Existing project files modified by running the installer (actual original copies are backed up at install time):
+config/settings.py
+config/urls.py
+templates/base.html
+marketplace/views.py
+templates/marketplace/checkout.html
+templates/marketplace/pharmacy_detail.html
+templates/marketplace/medicine_detail.html
